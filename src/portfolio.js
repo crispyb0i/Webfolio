@@ -15,7 +15,7 @@ const greeting = {
     'I am a Bay Area based Front End Developer. I love to take on new projects that challenges my analytical and technological capacities. I am naturally curious and my passions fuel me in the pursuit of my interests, hobbies, areas of study and artistic and professional endeavors. 🚀'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'http://bit.ly/DavidShinResume',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
