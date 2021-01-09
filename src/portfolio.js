@@ -12,7 +12,7 @@ const greeting = {
   username: 'David Shin',
   title: "Hey, I'm David!",
   subTitle: emoji(
-    'I am a Bay Area based Front End Developer. I love to take on new projects that challenges my analytical and technological capacities. I am naturally curious and my passions fuel me in the pursuit of my interests, hobbies, areas of study and artistic and professional endeavors. 🚀'
+    'I am a Bay Area-based Front End Developer. As a naturally curious person, I love to take on new projects that challenge my analytical and technological capacities. I love to code and I am on a journey to make the web a better place, one line of code at a time  🚀'
   ),
   resumeLink:
     'http://bit.ly/DavidShinResume',
