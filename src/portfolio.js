@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'David Shin',
+  title: "Hey, I'm David!",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A passionate Web Developer who loves to take on new projects that challenges his analytical and technological capacities. I love building Web applications with Reactjs / Nodejs and some other cool libraries and frameworks 🚀'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
@@ -22,13 +22,12 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/crispyb0i',
+  linkedin: 'https://www.linkedin.com/in/crispyb0i/',
+  gmail: 'xdavidshinx@gmail.com',
+  medium: 'https://medium.com/@david-shin',
+  twitter: 'https://www.twitter.com/crispyb0i',
+  instagram: 'https://www.instagram.com/crispyb0i',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -36,11 +35,11 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'Technologies that I use',
+  subTitle: '',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Build responsive and performant Front end websites using React'
     ),
     emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
@@ -73,36 +72,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-react',
     },
     {
-      skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
-    },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
-    {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
     },
     {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
-    },
-    {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
       skillName: 'firebase',
       fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'python',
-      fontAwesomeClassname: 'fab fa-python',
-    },
-    {
-      skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -114,24 +89,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
-      logo: require('./assets/images/harvardLogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      schoolName: 'Epicodus',
+      logo: require('./assets/images/epicodusLogo.png'),
+      subHeader: 'Web and Mobile Development',
+      duration: 'March 2017 - September 2017',
+      desc: 'Intensive 6 month program. Clocked 1,000 hours of classroom and internship development work.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+
       ],
     },
     {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/stanfordLogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
+      schoolName: 'University of California, Davis',
+      logo: require('./assets/images/davisLogo.png'),
+      subHeader: 'Bachelor of Arts in Film Studies',
+      duration: 'September 2012 - June 2014',
       desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+        'Emphasis in Film Production',
+      descBullets: [],
     },
   ],
 };
@@ -142,17 +116,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+      Stack: 'HTML', //Insert stack or technology you have experience in
       progressPercentage: '90%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
-      progressPercentage: '70%',
+      Stack: 'CSS',
+      progressPercentage: '85%',
     },
     {
-      Stack: 'Programming',
-      progressPercentage: '60%',
+      Stack: 'Git',
+      progressPercentage: '85%',
     },
+    {
+      Stack: 'Javascript',
+      progressPercentage: '80%',
+    },
+    {
+      Stack: 'React',
+      progressPercentage: '80%',
+    }
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -160,7 +142,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: 'Software Engineer',
@@ -280,7 +262,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -305,7 +287,7 @@ const blogSection = {
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -324,7 +306,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -337,22 +319,22 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji('Contact Me ☎️'),
+  title: emoji('Contact Me'),
   subtitle:
-    'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+    'HELLO ',
+  emailAddress: 'xdavidshinx@gmail.com',
+  display: false
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: 'twitter', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {

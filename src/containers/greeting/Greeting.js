@@ -39,7 +39,7 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+
                 <Button
                   text="See my resume"
                   newTab={true}
@@ -49,14 +49,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require('../../assets/images/manOnTable.svg')}
-              ></img>
-            )}
+            <img className='profile-image' src={require('../../assets/images/profile.jpeg')} />
           </div>
         </div>
       </div>
