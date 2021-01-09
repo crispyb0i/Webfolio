@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "338d59e26db80846e6adbf2a7dcf13f9",
+    "revision": "50ba795e3ea83c46023410a1260b3142",
     "url": "/index.html"
   },
   {
-    "revision": "8b4a4b1f45140ae8bb2b",
+    "revision": "6ba807406f3cf9f74b77",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "3e8f8a4a84e4e85255df",
+    "revision": "a1ca02a607d99f709fd2",
     "url": "/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "25e0c4933995960e4a46",
-    "url": "/static/css/main.f37dedc6.chunk.css"
+    "revision": "b9f48e540f2f6b28282e",
+    "url": "/static/css/main.49c05491.chunk.css"
   },
   {
-    "revision": "892f42bc0c11a8da26d5",
-    "url": "/static/js/2.ad407f2f.chunk.js"
+    "revision": "b7949048cadaedb0ba87",
+    "url": "/static/js/2.6c6aace5.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/static/js/2.ad407f2f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6c6aace5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b4a4b1f45140ae8bb2b",
-    "url": "/static/js/3.e77293e8.chunk.js"
+    "revision": "6ba807406f3cf9f74b77",
+    "url": "/static/js/3.0621fc95.chunk.js"
   },
   {
-    "revision": "3e8f8a4a84e4e85255df",
-    "url": "/static/js/4.3ca6ac1a.chunk.js"
+    "revision": "a1ca02a607d99f709fd2",
+    "url": "/static/js/4.8115d920.chunk.js"
   },
   {
-    "revision": "25e0c4933995960e4a46",
-    "url": "/static/js/main.a0e77f4f.chunk.js"
+    "revision": "b9f48e540f2f6b28282e",
+    "url": "/static/js/main.b158a452.chunk.js"
   },
   {
-    "revision": "7f9b017f8abe2ecee3a5",
-    "url": "/static/js/runtime-main.d5556740.js"
+    "revision": "e9520701851c6d50ee38",
+    "url": "/static/js/runtime-main.86772c27.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "46cd6c285f500a31fb7f24808a0801bb",
+    "url": "/static/media/burgerLogo.46cd6c28.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -80,8 +84,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "829ad0a1deef4d7295adfecdf12df2be",
-    "url": "/static/media/nextuLogo.829ad0a1.webp"
+    "revision": "af130d7ecab917ac364d7968db162a5d",
+    "url": "/static/media/movieLogo.af130d7e.png"
+  },
+  {
+    "revision": "f386eae5724ea3a88e6d972797b3c0bb",
+    "url": "/static/media/piickedLogo.f386eae5.png"
   },
   {
     "revision": "01b8c1cddc64d8437070585330dd5635",
@@ -96,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/quoraLogo.4b2938b9.png"
   },
   {
-    "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
-    "url": "/static/media/saayaHealthLogo.25018d29.webp"
-  },
-  {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
+  },
+  {
+    "revision": "61967264c92c69da188de3dbf68051ed",
+    "url": "/static/media/smartBrainLogo.61967264.png"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
