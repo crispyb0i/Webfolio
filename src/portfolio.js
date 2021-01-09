@@ -12,7 +12,7 @@ const greeting = {
   username: 'David Shin',
   title: "Hey, I'm David!",
   subTitle: emoji(
-    'A passionate Web Developer who loves to take on new projects that challenges his analytical and technological capacities. I love building Web applications with Reactjs / Nodejs and some other cool libraries and frameworks 🚀'
+    'I am a Bay Area based Front End Developer. I love to take on new projects that challenges my analytical and technological capacities. I am naturally curious and my passions fuel me in the pursuit of my interests, hobbies, areas of study and artistic and professional endeavors. 🚀'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
@@ -35,16 +35,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: 'Technologies that I use',
+  title: 'What I do',
   subTitle: '',
   skills: [
     emoji(
-      '⚡ Build responsive and performant Front end websites using React'
+      '⚡ Build responsive and performant websites using HTML5, CSS3, JQuery, and Wordpress'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Code and deploy applications in a cross-platform, cross-browser environment'
     ),
+    emoji('⚡ Utilize advanced Web Development technologies such as React and Firebase'),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -52,32 +52,39 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: 'html-5',
+      skillName: 'HTML5',
       fontAwesomeClassname: 'fab fa-html5',
+      color: 'rgb(227, 79, 38)'
     },
     {
-      skillName: 'css3',
+      skillName: 'CSS3',
       fontAwesomeClassname: 'fab fa-css3-alt',
-    },
-    {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      color: 'rgb(21, 114, 182)'
     },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js',
+      color: 'rgb(247, 223, 30)'
     },
     {
-      skillName: 'reactjs',
+      skillName: 'SASS',
+      fontAwesomeClassname: 'fab fa-sass',
+      color:'rgb(204, 102, 153)'
+    },
+    {
+      skillName: 'React',
       fontAwesomeClassname: 'fab fa-react',
+      color: 'rgb(97, 218, 251)'
     },
     {
-      skillName: 'npm',
+      skillName: 'NPM',
       fontAwesomeClassname: 'fab fa-npm',
+      color: 'rgb(203, 56, 55)'
     },
     {
-      skillName: 'firebase',
+      skillName: 'Firebase',
       fontAwesomeClassname: 'fas fa-fire',
+      color: 'rgb(255, 149, 0)'
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -188,17 +195,26 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Projects',
+  subtitle: '',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: require('./assets/images/piickedLogo.png'),
+      link: 'http://www.piicked.com/',
+      title:'Piicked'
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: require('./assets/images/smartBrainLogo.png'),
+      link: 'http://bit.ly/smartbrainproject',
     },
+    {
+      image: require('./assets/images/burgerLogo.png'),
+      link: 'https://bit.ly/burger-builder-app',
+    },
+    {
+      image: require('./assets/images/movieLogo.png'),
+      link: 'http://bit.ly/theonlinemoviedatabase',
+    }
   ],
   display: true, // Set false to hide this section, defaults to true
 };

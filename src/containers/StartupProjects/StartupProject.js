@@ -36,12 +36,12 @@ export default function StartupProject() {
                     className="saaya-health-div"
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
-                    <img alt="Saad Working" src={project.image}></img>
+                    <img alt="David's Project" src={project.image}></img>
                   </div>
                 );
               })}
             </div>
-            <div className="startup-project-image"></div>
+            {/* <div className="startup-project-image"></div>*/}
           </div>
         </div>
       </div>
