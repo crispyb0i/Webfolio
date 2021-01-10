@@ -205,7 +205,7 @@ const bigProjects = {
     },
     {
       image: require('./assets/images/smartBrainLogo.png'),
-      link: 'http://bit.ly/smartbrainproject',
+      link: 'http://bit.ly/smartbrain-web',
     },
     {
       image: require('./assets/images/burgerLogo.png'),
