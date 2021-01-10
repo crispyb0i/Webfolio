@@ -23,7 +23,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: 'https://github.com/crispyb0i',
-  linkedin: 'https://www.linkedin.com/in/crispyb0i/',
+  linkedin: 'https://www.linkedin.com/in/david-shin/',
   gmail: 'xdavidshinx@gmail.com',
   medium: 'https://medium.com/@david-shin',
   twitter: 'https://www.twitter.com/crispyb0i',
