@@ -12,10 +12,10 @@ const greeting = {
   username: 'David Shin',
   title: "Hey, I'm David!",
   subTitle: emoji(
-    'I am a Bay Area-based Front End Developer. As a naturally curious person, I love to take on new projects that challenge my analytical and technological capacities. I love to code and I am on a journey to make the web a better place, one line of code at a time.'
+    'I am a Bay Area-based Web Developer. As a naturally curious person, I love to take on new projects that challenge my analytical and technological capacities. I love to code and I am on a journey to make the web a better place, one line of code at a time.'
   ),
   resumeLink:
-    'http://bit.ly/DavidShinResume',
+    'http://bit.ly/web-dev-resume-2021',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -100,7 +100,7 @@ const educationInfo = {
       logo: require('./assets/images/epicodusLogo.png'),
       subHeader: 'Web and Mobile Development',
       duration: 'March 2017 - September 2017',
-      desc: 'Intensive 6 month program. Clocked 1,000 hours of classroom and internship development work.',
+      desc: 'Intensive 6-month program. Clocked 1,000+ hours of classroom and internship development work.',
       descBullets: [
 
       ],
@@ -124,11 +124,11 @@ const techStack = {
   experience: [
     {
       Stack: 'HTML', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      progressPercentage: '87%', //Insert relative proficiency in percentage
     },
     {
       Stack: 'CSS',
-      progressPercentage: '85%',
+      progressPercentage: '87%',
     },
     {
       Stack: 'Git',
