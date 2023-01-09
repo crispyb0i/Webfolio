@@ -1,10 +1,10 @@
 name: Build and Deploy
 env:
-  CI: false
+  CI: true
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
-  USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
+  USE_GITHUB_DATA: "false"
+  # MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
 on:
   push:
     branches:
@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        uses: actions/checkout@v3 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
-          persist-credentials: false
+          persist-credentials: true
 
       - name: Install and Build 🔧 # Build the Project
         run: |
