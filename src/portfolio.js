@@ -99,7 +99,7 @@ const educationInfo = {
 	schools: [
 		{
 			schoolName: "Epicodus",
-			logo: require("./assets/images/epicodusLogo.png"),
+			logo: require("./assets/images/epicodusLogo.png").default,
 			subHeader: "Web and Mobile Development",
 			duration: "March 2017 - September 2017",
 			desc: "Intensive 6-month program. Clocked 1,000+ hours of classroom and internship development work.",
@@ -107,7 +107,7 @@ const educationInfo = {
 		},
 		{
 			schoolName: "University of California, Davis",
-			logo: require("./assets/images/davisLogo.png"),
+			logo: require("./assets/images/davisLogo.png").default,
 			subHeader: "Bachelor of Arts in Film Studies",
 			duration: "September 2012 - June 2014",
 			desc: "Emphasis in Film Production",
@@ -153,7 +153,7 @@ const workExperiences = {
 		{
 			role: "Software Engineer",
 			company: "Sessions",
-			companylogo: require("./assets/images/sessionsLogo.png"),
+			companylogo: require("./assets/images/sessionsLogo.png").default,
 			date: "Aug 2022 - Dec 2022",
 			// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			descBullets: [
@@ -165,7 +165,7 @@ const workExperiences = {
 		{
 			role: "Front-End Engineer",
 			company: "breathing.ai",
-			companylogo: require("./assets/images/breathingaiLogo.png"),
+			companylogo: require("./assets/images/breathingaiLogo.png").default,
 			date: "Mar 2021 - Mar 2022",
 			// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			descBullets: [
@@ -177,7 +177,7 @@ const workExperiences = {
 		{
 			role: "Front-End Engineer",
 			company: "PIICKED",
-			companylogo: require("./assets/images/piickedLogo.png"),
+			companylogo: require("./assets/images/piickedLogo.png").default,
 			date: "Jun 2019 - Jun 2020",
 			// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			descBullets: [
@@ -210,15 +210,15 @@ const bigProjects = {
 		// 	title: "Piicked",
 		// },
 		{
-			image: require("./assets/images/Shinflix.png"),
+			image: require("./assets/images/Shinflix.png").default,
 			link: "https://classy-hotteok-354138.netlify.app/",
 		},
 		{
-			image: require("./assets/images/smartBrainLogo.png"),
+			image: require("./assets/images/smartBrainLogo.png").default,
 			link: "http://bit.ly/smartbrain-web",
 		},
 		{
-			image: require("./assets/images/burgerLogo.png"),
+			image: require("./assets/images/burgerLogo.png").default,
 			link: "https://bit.ly/burger-builder-app",
 		},
 	],
