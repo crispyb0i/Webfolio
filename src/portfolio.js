@@ -157,7 +157,7 @@ const workExperiences = {
 			date: "Aug 2022 - Dec 2022",
 			// desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 			descBullets: [
-				"Designed and built new features using React, React Native, Typescript, and MobX State Tree.",
+				"Designed and built new features using React, React Native, Typescript, and MobX State Tree for a product that had 130K artists and 1.7M fans.",
 				"Worked with Xcode and Android Studio to create additional features and contributed to bug fixes for the mobile app.",
 				"Collaborated with the team to build and ship the Next Music platform from scratch using Next.js, MobX State Tree, and Chakra UI in six weeks",
 			],
@@ -214,12 +214,12 @@ const bigProjects = {
 			link: "https://classy-hotteok-354138.netlify.app/",
 		},
 		{
-			image: require("./assets/images/smartBrainLogo.png").default,
-			link: "http://bit.ly/smartbrain-web",
+			image: require("./assets/images/pineappleOnPizza.png").default,
+			link: "https://pineapple-on-pizza.vercel.app/",
 		},
 		{
 			image: require("./assets/images/burgerLogo.png").default,
-			link: "https://bit.ly/burger-builder-app",
+			link: "https://my-project-1495731259843.web.app/",
 		},
 	],
 	display: true, // Set false to hide this section, defaults to true
